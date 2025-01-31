@@ -3,7 +3,7 @@ describe('Type Data', function () {
 
     /// Array
     it('should return hello', function ()  {
-        const name: string[] = ['Anwar', 'Rizky'];
+        const name: string[] = ['John', 'Rizky'];
         const antrian: number[] = [1, 2, 3, 4, 5];
         const age: number = 20;
         const isMarried: boolean = false;

@@ -1,7 +1,6 @@
 
 describe('Union Type', function (){
     it('should support in typescript', function (){
-        // const person: string | number | boolean = 'Anwar';
 
         let sample: number | string | boolean = 'typescript';
         
@@ -27,11 +26,11 @@ describe('Union Type', function (){
             }
         }
 
-        console.info(process('Anwar'));
+        console.info(process('John'));
         console.info(process(100));
         console.info(process(true));
 
-        expect(process('Anwar')).toBe('ANWAR');
+        expect(process('John')).toBe('JOHN');
         expect(process(100)).toBe(102);
         expect(process(true)).toBe(false);
     })

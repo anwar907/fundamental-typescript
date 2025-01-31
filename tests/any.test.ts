@@ -2,7 +2,7 @@ describe('Any', function (){
     it('should return hello', function (){
         const person: any = {
             id: 1,
-            name: 'Anwar',
+            name: 'John',
             age: 20
         };
 
